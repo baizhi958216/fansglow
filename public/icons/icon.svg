@@ -1,0 +1,27 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" fill="#39C5BB" rx="64"/>
+
+  <!-- Light stick shape -->
+  <g transform="translate(256, 256)">
+    <!-- Glow effect -->
+    <circle cx="0" cy="-80" r="100" fill="#FFFFFF" opacity="0.3"/>
+
+    <!-- Top light -->
+    <ellipse cx="0" cy="-80" rx="60" ry="80" fill="#FFFFFF"/>
+
+    <!-- Handle -->
+    <rect x="-20" y="0" width="40" height="120" fill="#2A9D94" rx="8"/>
+
+    <!-- Grip lines -->
+    <line x1="-20" y1="30" x2="20" y2="30" stroke="#FFFFFF" stroke-width="2" opacity="0.5"/>
+    <line x1="-20" y1="50" x2="20" y2="50" stroke="#FFFFFF" stroke-width="2" opacity="0.5"/>
+    <line x1="-20" y1="70" x2="20" y2="70" stroke="#FFFFFF" stroke-width="2" opacity="0.5"/>
+
+    <!-- Button -->
+    <circle cx="0" cy="90" r="8" fill="#FFFFFF" opacity="0.8"/>
+  </g>
+
+  <!-- Text -->
+  <text x="256" y="440" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#FFFFFF" text-anchor="middle">FanGlow</text>
+</svg>
